@@ -1,6 +1,0 @@
-1. PageContext: 하나의 jsp페이지에서만 사용할 수 있다.
-2. HttpServletRequest: 응답을 하기 전까지만 사용할 수 있다.
-3. HttpSession: 세션이 유지되는 동안에만 사용할 수 있다. (웹브라우저 종료 전 || 임의 지정 시점 전)
-4. ApplicationContext: 서버를 컸다 켜기 전까지 사용할 수 있다.
-
-위의 객체들은 .setAttribute(key, value), .getAttribute(key) 2가지 method를 가지고 있다.
